@@ -94,8 +94,9 @@ border-bottom-color: transparent !important;
 .bdr-xia:hover{
 	color: #ff0036;
 	text-decoration: underline;
+	background-color: #FFf;
 }
-.bdr-item:hover,.head-item:hover i,.head-item:hover span{
+.bdr-item:hover,.bdr-item:hover span,.head-item:hover i,.head-item:hover span{
 	color: #ffe013;
 }
 /* 导航部分结束 */
