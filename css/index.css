@@ -285,6 +285,7 @@ button{
     height: 235px;
 	background-color: rgba(255,255,255,.7);
 	transition: all 1s ;
+	overflow: hidden;
 }
 .banner-bd-img1:hover{
     background-color: rgba(255,255,255);
@@ -298,7 +299,7 @@ button{
     height: 235px;
 	background-color: rgba(255,255,255,.7);
 	transition: all 1s ;
-	
+	overflow: hidden;
 }
 .banner-bd-img2:hover{
     background-color: rgba(255,255,255);
