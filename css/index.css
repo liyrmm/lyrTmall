@@ -1,7 +1,8 @@
 body{
-    background-image: url(../img/background.png);
+    background-image: url(../img/background.png) ;
     background-repeat: no-repeat;
 	background-position: center top;
+	background-color: #F5F5F5;
 	position: relative;
 }
 .head img{
@@ -274,7 +275,7 @@ button{
 	height: 500px;
 	margin: 0 auto;
 	position: relative;
-	background:url(../img/banner1.webp)
+	background:url(../img/banner1.webp);
 	
 }
 .banner-bd-img1{
@@ -376,6 +377,9 @@ button{
 }
 /* 轮播图结束 */
 /* 3.8女王节开始 */
+.page{
+	width: 100%;
+}
 .page-list{
 	width: 1240px;
 	height: 435px;
@@ -468,5 +472,768 @@ font-size: 18px;
 	width: 130px;
 	height: 130px;
 }
+.brand{
+	width: 100%;
+	height: 394px;
+	padding-top: 40px;
+}
+.brand-bd{
+	width: 1230px;
+	height: 370px;
+	margin: 0 auto;
+}
+.brand-top{
+	width: 234px;
+	float: left;
+    display: block;
+    height: 370px;
+    margin-right: 13px;
+    background-color: #fff;
+}
+.brand-top-hd{
+    height: 54px;
+    background: #fff;
+    font-size: 0;
+    border-style: solid;
+    border-width: 0 0 1px;
+	border-color: #eee;
+	position: relative;
+}
+span.cn{
+	font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 54px;
+    height: 18px;
+    margin-left: 10px;
+}
+span.en{
+	font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin-left: 10px;
+    line-height: 24px;
+    height: 44px;
+}
+a.more{
+	position: absolute;
+    right: 14px;
+    top: 0;
+    width: 42px;
+    height: 54px;
+    line-height: 54px;
+    z-index: 99;
+    background-size: 18px 18px;
+    background-image: url(../img/3.8\ 6.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 14px;
+    font-size: 16px;
+    color: #666;
+    overflow: hidden;
+
+}
+.brand-top-bd{
+	height: 316px;
+	cursor: pointer;
+	position: relative;
+}
+
+.brand-top-bd img{
+	width: 234px;
+	height: 316px;
+}
+
+.top-mask{
+	width: 234px;
+	height: 316px;
+	position: absolute;
+	top: 0;
+	left:0;
+	background-color: rgba(255,255,255,.3);
+	display: none;
+}
+.brand-top-bd:hover .top-mask{
+	display: block;
+}
+.brand-mid{
+	float: left;
+    display: block;
+    width: 485px;
+    height: 370px;
+    margin-right: 13px;
+    background-color: #fff;
+}
+.brand-mid-hd{
+	height: 54px;
+    background: #fff;
+    font-size: 0;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #eee;
+    position: relative;
+}
+.brand-mid-hd a{
+	position: absolute;
+    right: 14px;
+    top: 0;
+    width: 42px;
+    height: 54px;
+    line-height: 54px;
+    z-index: 99;
+    background-size: 18px 18px;
+    background-image: url(../img/3.8\ 6.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 14px;
+    font-size: 16px;
+    color: #666;
+    overflow: hidden;
+}
+.brand-mid-bd{
+	height: 316px;
+	width:485px;
+	position: relative;
+}
+.brand-mid-bd:hover .mid-mask{
+display: block;
+}
+.mid-mask{
+	height: 316px;
+	width:485px;
+	position: absolute;
+	top: 0;
+	left:0;
+	background-color: rgba(255,255,255,.3);
+	display: none;
+}
+.brand-mid-bd img{
+	height: 316px;
+	width:485px;
+}
+.brand-last{
+	float: left;
+    display: block;
+    width: 485px;
+    height: 370px;
+    /* margin-right: 13px; */
+    background-color: #fff;
+}
+.brand-con{
+	margin: 15px auto 0;
+    width: 100%;
+	
+}
+.con-bd{
+	height: 327px;
+    width: 1230px;
+	
+	margin:0 auto;
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.con-bd-item{
+	width: 122px;
+    height: 108px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	
+}
+.con-bd-item:hover .con-item-mask{
+	display: block;
+	
+}
+.con-item-mask{
+	width: 122px;
+    height: 108px;
+    position: absolute;
+    left: 0;
+    top: 0;
+	background-color: rgba(0,0,0,.8);
+	display: none;
+}
+.con-item-mask span{
+	display: block;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+    text-align: center;
+    line-height: 90px;
+    height: 60px;
+}
+.enter{
+	text-align: center;
+    height: 32px;
+}
+.enter span{
+    display: inline-block;
+    color: #fff;
+    width: 63px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #FF0036;
+    border-radius: 9px;
+}
+.con-item-img{
+	width: 122px;
+    height: 108px;
+	margin: 0 auto;
+    display: block;
+    text-align: center;
+    /* line-height: 150px; */
+    background-color: #fff;
+}
+.con-item-img img{
+	width: 82%;
+	height: 50px;
+	margin-top: 29px;
+}
+
 /* 3.8女王节结束 */
+/* 天猫超市开始 */
+.mart{
+	
+    width: 1230px;
+	height: 665px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.mart-tit{
+width: 100%;
+height: 28px;
+}
+.mart-tit-img{
+	width: 214px;
+	height: 28px;
+	float: left;
+}
+.mart-tit-img img{
+	width: 214px;
+	height: 28px;
+}
+.mart-tit-words{
+	/* width: 800px; */
+	text-align: right;
+	height: 28px;
+	float: right;
+}
+.mart-tit-word{
+	height: 20px;
+    line-height: 20px;
+    margin: 5px 10px;
+    font-size: 14px;
+    border: none;
+	border-bottom: 1px solid #f5f5f5;
+	float: left;
+}
+.mart-tit-word:hover{
+	cursor: pointer;
+	border-bottom: 1px solid #000;
+	
+}
+.mart-bd{
+	width: 100%;
+    height: 618px;
+    margin-top: 10px;
+    overflow: hidden;
+    background: url(../img/mart2.gif) 50% 50% no-repeat #f5f5f5!important;
+}
+.mart-big-banner{
+	float: left;
+    width: 235px;
+	height: 618px;
+	position: relative;
+}
+
+.banner-mask{
+	width: 235px;
+	height: 618px;
+	background:rgba(255,255,255,0.3);
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mart-big-banner:hover .banner-mask{
+	display: block;
+	cursor: pointer;
+}
+.mart-big-banner a{
+	display: block;
+	width: 235px;
+	height: 618px;
+}
+.mart-big-banner img{
+	width: 235px;
+	height: 618px;
+}
+.banner-detail{
+	position: absolute;
+    vertical-align: middle;
+    bottom: 20%;
+    width: 218px;
+    height: 64px;
+}
+.ban-detail-left{
+	background: rgba(0,0,0,.9);
+    width: 70px;
+    height: 64px;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ban-detail-left span{
+	display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 18px;
+    width: 36px;
+    overflow: hidden;
+}
+.ban-detail-right{
+	left: 70px;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    overflow: hidden;
+    width: 128px;
+    height: 64px;
+    color: #FFF;
+    vertical-align: middle;
+}
+.detail-right-words{
+	margin-top: 8px;
+    margin-left: 14px;
+}
+.detail-right-words span{
+	display: block;
+    line-height: 24px;
+    font-size: 18px;
+}
+.banner-wrap{
+	background-image: linear-gradient(-180deg,rgba(0,0,0,0) 4%,rgba(0,0,0,.36) 100%);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner-wrap img{
+	position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+}
+.mart-mid{
+	width: 995px;
+    height: 618px;
+    float: left;
+    overflow: hidden;
+}
+.gridone{
+	width: 484px;
+    height: 301px;
+	margin-left: 13px;
+	float: left;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+	background-color: #fff;
+	
+}
+.gridone:hover .gridone-mask{
+	display: block;
+}
+.gridone-mask{
+	position: absolute;
+	width: 240px;
+	height: 220px;
+	right: 0;
+	top: 57px;
+	background:rgba(255,255,255,.3);
+	display: none;
+}
+.floor-tabs{
+	width: 462px;
+    height: 282px;
+    margin: 10px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.09);
+	cursor: pointer;
+}
+
+
+.floor-tab-head{
+	overflow: hidden;
+    background: #F1F1F1;
+}
+.floor-current-tab{
+	color: #FFF;
+	background: #00B262;
+	float: left;
+    /* color: #000; */
+    height: 57px;
+    width: 191px;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.floor-tab-head p{
+	margin-top: 16px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.floor-normal-tab{
+	float: left;
+    color: #000;
+    height: 57px;
+    width: 191px;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.floor-bd{
+	height: 225px;
+	width: 462px;
+}
+.floor-bd-detail{
+	position: absolute;
+    top: 153px;
+    height: 87px;
+    width: 291px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-color: rgba(0,0,0,0);
+    background-image: url(../img/mart5.png);
+    z-index: 99;
+}
+.floor-detail-word1{
+	margin-left: 26px;
+    margin-top: 8px;
+}
+.floor-detail-word1 img{
+	width: 23px;
+    height: 23px;
+    margin-top: -10px;
+}
+.floor-detail-word1 span{
+	margin-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.floor-detail-word2{
+	margin-left: 26px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.floor-img{
+	float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+}
+.gradtwo{
+	width: 235px;
+    height: 301px;
+    margin-left: 13px;
+	text-align: center;
+	float: left;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+	background-color: #fff;
+	cursor: pointer;
+}
+.gradtwo:hover .gradtwo-mask{
+	display: block;
+	
+}
+.gradtwo-mask{
+	width: 235px;
+	height: 185px;
+background: rgba(255,255,255,.3);
+position: absolute;
+top: 20px;
+display: none;
+}
+.gradtwo-main{
+	width: 234px;
+    height: 300px;
+    border: 1px solid #fff;
+}
+
+.gradtwo:hover .gradtwo-main{
+	cursor: pointer;
+	border: 1px solid #FF0036;
+}
+.gradtwo-img{
+	width: 185px;
+	height: 185px;
+	margin-top: 20px;
+}
+.gradtwo p{
+	display: block;
+	width: 135px;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 8px auto;
+}
+.gradtwo span{
+	display: block;
+	font-size: 18px;
+    color: #FF0036;
+    line-height: 18px;
+    margin: 10px auto;
+}
+/* 天猫超市结束 */
+/* 天猫国际开始 */
+.hk-banner{
+	float: left;
+    width: 235px;
+    height: 618px;
+}
+.hk-ban-item{
+	width: 235px;
+    height: 301px;
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+    background-color: #fff;
+}
+.hk-ban-item-img{
+	width: 235px;
+    height: 301px;
+}
+.hk-ban-detail{
+	position: absolute;
+    vertical-align: middle;
+    bottom: 20%;
+    width: 218px;
+    height: 64px;
+}
+.hk-ban-detl{
+	background: rgba(0,0,0,.9);
+    width: 70px;
+    height: 64px;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.hk-ban-detl span{
+	display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 18px;
+    width: 36px;
+    overflow: hidden;
+}
+.hk-ban-detr{
+	left: 70px;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    overflow: hidden;
+    width: 128px;
+    height: 64px;
+    color: #FFF;
+    vertical-align: middle;
+}
+.hk-gradtwo-main-img{
+    width: 170px;
+    height: 170px;
+    margin: 90px 33px 42px 32px;
+}
+.hk-grastwo-main-word1{
+	position: absolute;
+    top: 20px;
+    left: 25px;
+	font-size: 18px;
+}
+.hk-grastwo-main-word2{
+	position: absolute;
+    top: 49px;
+	left: 25px;
+	font-size: 14px;
+	color: #7A45E5;
+}
+.hk-gradtwo-mask{
+	width: 170px;
+    height: 170px;
+background: rgba(255,255,255,.3);
+position: absolute;
+margin: 90px 33px 42px 32px;
+display: none;
+}
+.gradtwo:hover .hk-gradtwo-mask{
+display: block;
+}
+/* 天猫国际结束 */
+/* 页面中广告开始 */
+.ad{
+	width: 1230px;
+	
+	height: 90px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.ad img{
+    width: 1620px;
+    height: 90px;
+	margin-left: -165px;
+	cursor: pointer;
+}
+/* 页面中广告结束 */
+/* 美丽人生开始 */
+.tit-left{
+	height:28px;
+}
+.tit-left1{
+    display: inline-block;
+    background-color: #333;
+    width: 5px;
+    height: 18px;
+	vertical-align: middle;
+	margin-top: 5px;
+}
+.tit-left-name{
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #000;
+	height: 28px;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+.tit-left-name p{
+	display: inline-block;
+
+	font-size: 14px;
+    color: #000;
+    margin-left: 10px;
+    line-height: 24px;
+}
+/* 美丽人生结束 */
+/* 猜你喜欢开始 */
+.wonderful{
+	width:1230px;
+	margin: 30px auto 0;
+}
+.wonderful-tit{
+	width: 1230px;
+	color: #666;
+    text-align: center;
+    height: 43px;
+	font-weight: 100;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.won-tit-word{
+	position: relative;
+    font-size: 18px;
+    line-height: 20px;
+}
+.won-tit-word i{
+	position: relative;
+
+	top: 1px;
+    font-size: 20px;
+    color: #ff0036;
+}
+.won-tit-word::before{
+	content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: #979797;
+	top: 12px;
+	left: -38px;
+}
+.won-tit-word::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: #979797;
+    top: 12px;
+	right: -38px;
+}
+.wonderful-list{
+	width: 1230px;
+	height: 666px;
+	margin: 0 auto;
+}
+.won-list-item{
+	float: left;
+	width: 235px;
+	height: 315px;
+    margin-right: 12px;
+	margin-bottom: 15px;
+	background-color: #fff;
+}
+.won-item-bd{
+	display: block;
+    border: 2px solid #fff;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    width: 235px;
+	height: 315px;
+	text-align: center;
+	color: #000;
+	box-sizing: border-box;
+}
+.won-item-bd:hover{
+    border: 2px solid #FF0036;
+
+}
+.won-item-bd p{
+	margin: 8px auto;
+    display: block;
+    width: 135px;
+    height: 40px;
+    line-height: 20px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #666;
+	padding-top: 14px;
+}
+.won-item-bd span{
+	display: block;
+    height: 33px;
+    line-height: 22px;
+	margin-top: 2px;
+	line-height: 32px;
+	color: #ff0036;
+	font-size: 18px;
+}
+.won-list-item-last{
+	float: left;
+	width: 235px;
+	height: 315px;
+    /* margin-right: 12px; */
+	margin-bottom: 15px;
+	background-color: #fff;
+}
+/* 猜你喜欢结束 */
 /* 内容结束 */
