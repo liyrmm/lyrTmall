@@ -1236,4 +1236,115 @@ display: block;
 	background-color: #fff;
 }
 /* 猜你喜欢结束 */
+/* 底部开始 */
+.footer1{
+	width: 1190px;
+    height: 100px;
+    background: url(../img/footer1.jpg) no-repeat;
+    margin: 25px auto;
+    padding: 0
+}
+.footer2{
+	/* background-image: url(../img/footer2.png); */
+    background-repeat: no-repeat;
+	background-size: 68px 25px;
+	width: 1190px;
+    padding-top: 22px;
+    height: 190px;
+    margin: auto;
+    border-top: 1px solid #ededed;
+    background: url(../img/footer2.1.jpg) 45px bottom no-repeat;
+}
+.footer2-list{
+	float: left;
+    width: 186px;
+    padding-left: 52px;
+}
+.footer2-list-tit{
+	color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.footer2-list-words{
+	text-align: left;
+	
+}
+.footer2-list-words a{
+	width: 100px;
+    overflow: hidden;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+	color: #8b8b8b;
+	display: block;
+	font-size: 12px;
+}
+.mobile{
+	float: left;
+    width: 186px;
+    padding-left: 52px;
+}
+.mobile span{
+	color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.mobile-img{
+	width: 105px;
+    height: 105px;
+    line-height: 105px;
+    text-align: center;
+}
+.footer3{
+	border-top: 2px solid #FF0036;
+    background: #000;
+    text-align: left;
+	min-height: 177px;
+	height: 238px;
+
+}
+.footer3 p{
+	width: 1190px;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 25px;
+	padding: 5px 0;
+	font-size: 12px;
+}
+.footer3 a{
+	margin-right: 3px;
+    color: #fff;
+}
+.copyright{
+	line-height: 20px;
+    background: #000;
+	color: #a4a4a4;
+	width: 1190px;
+	margin: 0 auto;
+	height: 150px;
+}
+.copyrightwords{
+	height: 80px;
+}
+.copyright span{
+	margin-right: 65px;
+	font-size: 12px;
+	float: left;
+}
+.copyright b{
+	display: block;
+    color: #686868;
+	font-weight: 400;
+	font-size: 12px;
+}
+.copyright-img{
+	padding-top: 10px;
+}
+/* 底部结束 */
 /* 内容结束 */
