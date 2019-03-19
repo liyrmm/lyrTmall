@@ -275,8 +275,22 @@ button{
 	height: 500px;
 	margin: 0 auto;
 	position: relative;
-	background:url(../img/banner1.webp);
+	/* background:url(../img/banner1.webp); */
 	
+}
+.banner-box{
+	width: 1230px;
+	height: 500px;
+	position: absolute;
+}
+.banner-box img{
+	position: absolute;
+	width: 1230px;
+	height: 500px;
+	opacity: 0;
+}
+.banner-box .active{
+	opacity: 1;
 }
 .banner-bd-img1{
 	position: absolute;
@@ -312,7 +326,9 @@ button{
 	padding-top: 29px;
 	box-sizing: border-box;
 	background-color: #000;
-    background-color: rgba(0,0,0,.55);
+	background-color: rgba(0,0,0,.55);
+	z-index: 999;
+	position: absolute;
 }
 .banner-bd-llist{
 	width: 100%;
@@ -345,8 +361,9 @@ button{
 }
 .slider-nav{
 	display: block;
-    position: relative;
-    margin: -40px auto 0;
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
     text-align: center;
     z-index: 100;
 }
@@ -360,7 +377,11 @@ button{
 	cursor: pointer;
 	opacity: .3;
 }
-.spot:hover{
+/* .spot:hover{
+	background: #fff;
+	opacity: .6;
+} */
+.slider-nav .active{
 	background: #fff;
 	opacity: .6;
 }
