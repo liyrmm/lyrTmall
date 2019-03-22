@@ -45,6 +45,7 @@ dots.forEach(function(item,i){
             item.classList.remove("active")
         })
         pages[i].classList.add("active")
+        index=i;
     }
 })
 
